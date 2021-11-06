@@ -1,0 +1,4 @@
+#Mon Oct 05 21:31:34 COT 2020
+base.0=E\:\\Cursos\\2020\\SIPECOM\\Flutter092020\\TalleresDia2\\FlutterSQLiteVPR\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

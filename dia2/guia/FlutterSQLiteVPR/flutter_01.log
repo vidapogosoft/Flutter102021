@@ -1,0 +1,67 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter pub get
+
+## exception
+
+ArchiveException: FormatException: Invalid Zip Signature
+
+```
+#0      new ZipFile (package:archive/src/zip/zip_file.dart:31:9)
+#1      new ZipFileHeader (package:archive/src/zip/zip_file_header.dart:85:16)
+#2      new ZipDirectory.read (package:archive/src/zip/zip_directory.dart:53:23)
+#3      ZipDecoder.decodeBuffer (package:archive/src/zip_decoder.dart:20:30)
+#4      ZipDecoder.decodeBytes (package:archive/src/zip_decoder.dart:14:12)
+#5      _WindowsUtils.unzip (package:flutter_tools/src/base/os.dart:332:42)
+#6      ArtifactUpdater._downloadArchive (package:flutter_tools/src/cache.dart:1512:18)
+#7      _rootRunUnary (dart:async/zone.dart:1198:47)
+#8      _CustomZone.runUnary (dart:async/zone.dart:1100:19)
+#9      _FutureListener.handleValue (dart:async/future_impl.dart:143:18)
+#10     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:696:45)
+#11     Future._propagateToListeners (dart:async/future_impl.dart:725:32)
+#12     Future._completeWithValue (dart:async/future_impl.dart:529:5)
+#13     Future._asyncCompleteWithValue.<anonymous closure> (dart:async/future_impl.dart:567:7)
+#14     _rootRun (dart:async/zone.dart:1190:13)
+#15     _CustomZone.run (dart:async/zone.dart:1093:19)
+#16     _CustomZone.runGuarded (dart:async/zone.dart:997:7)
+#17     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1037:23)
+#18     _microtaskLoop (dart:async/schedule_microtask.dart:41:21)
+#19     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50:5)
+#20     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:118:13)
+#21     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:169:5)
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 1.22.0, on Microsoft Windows [VersiÃ³n 10.0.18362.1082], locale es-ES)
+    • Flutter version 1.22.0 at C:\src\flutter
+    • Framework revision d408d302e2 (6 days ago), 2020-09-29 11:49:17 -0700
+    • Engine revision 5babba6c4d
+    • Dart version 2.10.0
+
+[!] Android toolchain - develop for Android devices (Android SDK version 28.0.3)
+    • Android SDK at C:\Users\vidapogosoft\AppData\Local\Android\sdk
+    • Platform android-29, build-tools 28.0.3
+    • Java binary at: E:\ProgramsInstaled\Android\Android Studio\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_202-release-1483-b03)
+    ! Some Android licenses not accepted.  To resolve this, run: flutter doctor --android-licenses
+
+[!] Android Studio (version 3.5)
+    • Android Studio at E:\ProgramsInstaled\Android\Android Studio
+    ✗ Flutter plugin not installed; this adds Flutter specific functionality.
+    ✗ Dart plugin not installed; this adds Dart specific functionality.
+    • Java version OpenJDK Runtime Environment (build 1.8.0_202-release-1483-b03)
+
+[✓] VS Code (version 1.49.2)
+    • VS Code at C:\Users\vidapogosoft\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.15.0
+
+[✓] Connected device (1 available)
+    • G3223 (mobile) • RQ300729UE • android-arm64 • Android 8.0.0 (API 26)
+
+! Doctor found issues in 2 categories.
+```

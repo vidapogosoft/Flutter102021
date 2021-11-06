@@ -19,7 +19,7 @@ class AlertPage extends StatelessWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.add_location),
+        child: Icon(Icons.alternate_email),
         onPressed: () {
           Navigator.pop(context);
         },

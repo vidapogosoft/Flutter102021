@@ -1,0 +1,169 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.flutter.plugins.googlemapsexample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs internet permission to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:4:5-66
+14-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:4:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:5:5-78
+15-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:5:22-76
+16    <uses-permission android:name="android.permission.REORDER_TASKS" /> <!-- Include required permissions for Google Maps API to run. -->
+16-->[androidx.test:core:1.2.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\4f840f8cbd80fa192c269c08da58f451\core-1.2.0\AndroidManifest.xml:24:5-72
+16-->[androidx.test:core:1.2.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\4f840f8cbd80fa192c269c08da58f451\core-1.2.0\AndroidManifest.xml:24:22-69
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\2af23ae7a28ebdd163e11b223d5179ff\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+17-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\2af23ae7a28ebdd163e11b223d5179ff\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\2af23ae7a28ebdd163e11b223d5179ff\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\2af23ae7a28ebdd163e11b223d5179ff\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\2af23ae7a28ebdd163e11b223d5179ff\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+22
+23    <application
+23-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:7:5-29:19
+24        android:name="androidx.multidex.MultiDexApplication"
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.1.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\c69dff51eda740b9d8e41de9637149e8\core-1.1.0\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:7:62-96
+28        android:label="google_maps_flutter_example"
+28-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:7:18-61
+29        android:usesCleartextTraffic="true" >
+29-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\debug\AndroidManifest.xml:7:18-53
+30        <activity
+30-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\debug\AndroidManifest.xml:8:9-15:20
+31            android:name="io.flutter.plugins.googlemapsexample.GoogleMapsTestActivity"
+31-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\debug\AndroidManifest.xml:9:13-51
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+32-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\debug\AndroidManifest.xml:12:13-163
+33            android:hardwareAccelerated="true"
+33-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\debug\AndroidManifest.xml:13:13-47
+34            android:launchMode="singleTop"
+34-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\debug\AndroidManifest.xml:10:13-43
+35            android:theme="@style/LaunchTheme"
+35-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\debug\AndroidManifest.xml:11:13-47
+36            android:windowSoftInputMode="adjustResize" >
+36-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\debug\AndroidManifest.xml:14:13-55
+37        </activity>
+38
+39        <meta-data
+39-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:8:7-10:69
+40            android:name="com.google.android.gms.version"
+40-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:9:13-58
+41            android:value="@integer/google_play_services_version" /> <!-- Update this value to your google maps api key. -->
+41-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:10:13-66
+42        <meta-data
+42-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:12:9-14:71
+43            android:name="com.google.android.geo.API_KEY"
+43-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:13:13-58
+44            android:value="AIzaSyCF7J7YB_VCVrpbTe9V7kQB6203EwpH0Y8" />
+44-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:14:13-68
+45
+46        <activity
+46-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:15:9-27:20
+47            android:name="io.flutter.embedding.android.FlutterActivity"
+47-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:15:19-78
+48            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale"
+48-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:17:13-116
+49            android:hardwareAccelerated="true"
+49-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:18:13-47
+50            android:theme="@style/LaunchTheme"
+50-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:16:13-47
+51            android:windowSoftInputMode="adjustResize" >
+51-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:19:13-55
+52            <meta-data
+52-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:20:13-22:40
+53                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+53-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:21:17-82
+54                android:value="true" />
+54-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:22:17-37
+55
+56            <intent-filter>
+56-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:23:13-26:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:24:17-68
+57-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:24:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:25:17-76
+59-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:25:27-74
+60            </intent-filter>
+61        </activity>
+62
+63        <meta-data
+63-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:28:9-71
+64            android:name="flutterEmbedding"
+64-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:28:20-51
+65            android:value="2" />
+65-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:28:52-69
+66
+67        <activity
+67-->[androidx.test:core:1.2.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\4f840f8cbd80fa192c269c08da58f451\core-1.2.0\AndroidManifest.xml:27:9-33:20
+68            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+68-->[androidx.test:core:1.2.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\4f840f8cbd80fa192c269c08da58f451\core-1.2.0\AndroidManifest.xml:28:13-99
+69            android:theme="@android:style/Theme" >
+69-->[androidx.test:core:1.2.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\4f840f8cbd80fa192c269c08da58f451\core-1.2.0\AndroidManifest.xml:29:13-49
+70            <intent-filter>
+70-->[androidx.test:core:1.2.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\4f840f8cbd80fa192c269c08da58f451\core-1.2.0\AndroidManifest.xml:30:13-32:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:24:17-68
+71-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:24:25-66
+72            </intent-filter>
+73        </activity>
+74        <activity
+74-->[androidx.test:core:1.2.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\4f840f8cbd80fa192c269c08da58f451\core-1.2.0\AndroidManifest.xml:34:9-40:20
+75            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+75-->[androidx.test:core:1.2.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\4f840f8cbd80fa192c269c08da58f451\core-1.2.0\AndroidManifest.xml:35:13-95
+76            android:theme="@android:style/Theme" >
+76-->[androidx.test:core:1.2.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\4f840f8cbd80fa192c269c08da58f451\core-1.2.0\AndroidManifest.xml:36:13-49
+77            <intent-filter>
+77-->[androidx.test:core:1.2.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\4f840f8cbd80fa192c269c08da58f451\core-1.2.0\AndroidManifest.xml:30:13-32:29
+78                <action android:name="android.intent.action.MAIN" />
+78-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:24:17-68
+78-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:24:25-66
+79            </intent-filter>
+80        </activity>
+81        <activity
+81-->[androidx.test:core:1.2.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\4f840f8cbd80fa192c269c08da58f451\core-1.2.0\AndroidManifest.xml:41:9-47:20
+82            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+82-->[androidx.test:core:1.2.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\4f840f8cbd80fa192c269c08da58f451\core-1.2.0\AndroidManifest.xml:42:13-103
+83            android:theme="@android:style/Theme.Dialog" >
+83-->[androidx.test:core:1.2.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\4f840f8cbd80fa192c269c08da58f451\core-1.2.0\AndroidManifest.xml:43:13-56
+84            <intent-filter>
+84-->[androidx.test:core:1.2.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\4f840f8cbd80fa192c269c08da58f451\core-1.2.0\AndroidManifest.xml:30:13-32:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:24:17-68
+85-->D:\vidapogosoft\cursos\2021\SIPECOM\Flutter102021\code\dia4\clases\mapa2\google_maps_flutter\example\android\app\src\main\AndroidManifest.xml:24:25-66
+86            </intent-filter>
+87        </activity> <!-- Needs to be explicitly declared on P+ -->
+88        <uses-library
+88-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\2af23ae7a28ebdd163e11b223d5179ff\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+89            android:name="org.apache.http.legacy"
+89-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\2af23ae7a28ebdd163e11b223d5179ff\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+90            android:required="false" />
+90-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\2af23ae7a28ebdd163e11b223d5179ff\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+91
+92        <activity
+92-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\c687ceee60ba643f3db78cb72bf6d1b7\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+93            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+93-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\c687ceee60ba643f3db78cb72bf6d1b7\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+94            android:exported="false"
+94-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\c687ceee60ba643f3db78cb72bf6d1b7\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+95-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\vidapogosoft\.gradle\caches\transforms-2\files-2.1\c687ceee60ba643f3db78cb72bf6d1b7\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+96    </application>
+97
+98</manifest>

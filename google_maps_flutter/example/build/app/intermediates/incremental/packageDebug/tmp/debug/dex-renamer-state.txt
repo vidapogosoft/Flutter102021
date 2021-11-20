@@ -1,0 +1,7 @@
+#Sat Nov 20 12:51:29 COT 2021
+base.1=D\:\\vidapogosoft\\cursos\\2021\\SIPECOM\\Flutter102021\\code\\dia4\\clases\\mapa2\\google_maps_flutter\\example\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes2.dex
+path.1=classes2.dex
+base.0=D\:\\vidapogosoft\\cursos\\2021\\SIPECOM\\Flutter102021\\code\\dia4\\clases\\mapa2\\google_maps_flutter\\example\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
